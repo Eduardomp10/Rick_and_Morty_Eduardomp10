@@ -1,0 +1,18 @@
+.contenedorFoto {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+
+.barney {
+    height: 100px;
+    width: 100px;
+    padding-left: 30px;
+    padding-bottom: -15px;
+}
+.miNombre {
+    margin-right: 10px;
+}

@@ -1,0 +1,46 @@
+.infoTarjeta {
+    background-image:url(https://c4.wallpaperflare.com/wallpaper/946/632/921/espacio-estrellas-naturaleza-planetas-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1000px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    border-radius: 20px;
+    overflow: hidden; /* Para asegurarse de que los bordes redondeados funcionen correctamente */
+
+  /* Agrega una capa con fondo semitransparente encima de la imagen de fondo */
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/946/632/921/espacio-estrellas-naturaleza-planetas-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7; /* Ajusta el valor de opacidad según tus preferencias */
+    z-index: -1; /* Para colocar esta capa detrás del contenido */
+  }
+}
+
+.textoTarjeta {
+    position: fixed;
+    margin-left: 160px;
+    margin-top: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.imagenPersonaje {
+    position: fixed;
+    width: 250px;
+    /* padding-left: 65%;
+    padding-top: 10%; */
+    border-radius: 50%;
+    left: 600px;
+    top: 100px;
+
+}

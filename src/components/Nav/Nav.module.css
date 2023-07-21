@@ -1,0 +1,15 @@
+
+.navButtons {
+    position: fixed;
+    padding-left: 90%;
+    padding-top: 15px;
+   
+}
+
+.navLink {
+    padding:  8px;
+    background-color: greenyellow;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
